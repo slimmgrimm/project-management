@@ -1,0 +1,38 @@
+[
+  {
+    "projectID": 1,
+    "projectName": "Inventory Management System",
+    "projectDesc": "Develop a system to track inventory and manage stock levels",
+    "startDate": "2022-01-01T00:00:00",
+    "endDate": "2022-06-30T00:00:00",
+    "statusID": "In progress",
+    "projectOwner": "John Smith",
+    "estimatedCost": 50000.00,
+    "actualCost": null,
+    "projectVersion": 1
+  },
+  {
+    "projectID": 2,
+    "projectName": "Building Renovation",
+    "projectDesc": "Renovate an existing building to update the interior and exterior",
+    "startDate": "2022-03-01T00:00:00",
+    "endDate": "2022-12-31T00:00:00",
+    "statusID": "Not started",
+    "projectOwner": "Jane Doe",
+    "estimatedCost": 100000.00,
+    "actualCost": null,
+    "projectVersion": 1
+  },
+  {
+    "projectID": 3,
+    "projectName": "Product Launch",
+    "projectDesc": "Create an advertising campaign to promote the launch of a new product",
+    "startDate": "2022-09-01T00:00:00",
+    "endDate": "2022-10-31T00:00:00",
+    "statusID": "Not started",
+    "projectOwner": "Marketing Department",
+    "estimatedCost": 20000.00,
+    "actualCost": null,
+    "projectVersion": 1
+  }
+]

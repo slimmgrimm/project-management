@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div class="form-container">
+    <form action="submit_project.php" method="POST">
+        <fieldset>
+          <legend>Project Overview</legend>
+      
+          <div>
+            <label for="projectName">Project Name:</label>
+            <input type="text" name="projectName" id="projectName" required>
+          </div>
+      
+          <div>
+            <label for="projectDesc">Project Description:</label>
+            <textarea name="projectDesc" id="projectDesc" required></textarea>
+          </div>
+      
+          <div>
+            <label for="startDate">Start Date:</label>
+            <input type="date" name="startDate" id="startDate" required>
+          </div>
+      
+          <div>
+            <label for="endDate">End Date:</label>
+            <input type="date" name="endDate" id="endDate" required>
+          </div>
+      
+          <div>
+            <label for="statusID">Status ID:</label>
+            <input type="text" name="statusID" id="statusID" required>
+          </div>
+      
+          <div>
+            <label for="projectOwner">Project Owner:</label>
+            <input type="text" name="projectOwner" id="projectOwner" required>
+          </div>
+      
+          <div>
+            <label for="estimatedCost">Estimated Cost:</label>
+            <input type="number" name="estimatedCost" id="estimatedCost" step="0.01" required>
+          </div>
+      
+          <div>
+            <label for="actualCost">Actual Cost:</label>
+            <input type="number" name="actualCost" id="actualCost" step="0.01">
+          </div>
+      
+          <div>
+            <label for="projectVersion">Project Version:</label>
+            <input type="number" name="projectVersion" id="projectVersion" required>
+          </div>
+      
+        </fieldset>
+      
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+      
 </body>
 </html>
